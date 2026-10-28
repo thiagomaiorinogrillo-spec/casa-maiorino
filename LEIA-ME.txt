@@ -1,0 +1,40 @@
+CASA MAIORINO — site com várias páginas
+========================================
+
+Agora cada botão do menu leva a uma página HTML separada de verdade:
+
+index.html      -> Início (hero com a logo + atalhos)
+sobre.html      -> Sobre nós
+cardapio.html   -> Cardápio (sandes e hot dogs)
+bebidas.html    -> Bebidas
+ambiente.html   -> Ambiente
+visite.html     -> Visite-nos (horários, morada, mapa)
+
+Todas as páginas usam o mesmo cabeçalho (com a sua logo real, em /images/logo.png),
+o mesmo rodapé, o mesmo css/style.css e o mesmo js/script.js — por isso qualquer
+ajuste visual num arquivo CSS já vale para o site inteiro.
+
+Como usar:
+1. Extraia a pasta e abra no VS Code.
+2. Use a extensão "Live Server" (botão direito em index.html > "Open with Live Server"),
+   ou simplesmente abra o index.html duas vezes clicando nele.
+3. Fotos que ainda faltam, na pasta /images:
+   sobre.jpg         -> foto ao lado do texto "Nossa história" (sobre.html)
+   ambiente-1.jpg a ambiente-4.jpg -> já estão como blocos gráficos por enquanto;
+   me mande as fotos que eu troco.
+4. Links de Instagram/Facebook no rodapé ainda são "#" — troque pelos reais.
+5. Confirme os preços de bebidas marcados como aproximados (milkshake 50cl, vinho por copo).
+
+Estrutura de pastas:
+casa-maiorino/
+├── index.html
+├── sobre.html
+├── cardapio.html
+├── bebidas.html
+├── ambiente.html
+├── visite.html
+├── css/style.css
+├── js/script.js
+└── images/
+    ├── logo.png          (logo com fundo, usada só como ícone da aba)
+    └── logo-inicio.png   (logo sem fundo, usada no menu, no rodapé e no topo da página inicial)
